@@ -1,0 +1,90 @@
+@import '~antd/dist/antd.css';
+
+.input {
+  width: 350px;
+}
+
+.dropdown {
+  width: 300px;
+  margin-left: 25px;
+}
+
+.button {
+  margin-left: 25px;
+}
+
+.box {
+  white-space:nowrap;
+}
+
+.list {
+  position: absolute;
+  display: inline-block;
+  margin-top: 5px;
+  width: 350px;
+}
+
+.collapse {
+  position: absolute;
+  top: 105px;
+  left: 380px;
+  display: inline-block;
+  margin-left: 10px; 
+  width: 250px;
+}
+
+.smallList {
+  width: 220px;
+}
+
+.listItem:hover .editIcon {
+  visibility: visible;
+}
+
+.listItem:hover .deleteIcon {
+  visibility: visible;
+}
+
+.editIcon, .deleteIcon {
+  visibility: hidden;
+  cursor: pointer;
+  position: absolute;
+}
+
+.editIcon {
+  right: 30px;
+}
+
+.deleteIcon {
+  right: 10px;
+}
+
+.comboInput {
+  position: absolute;
+  width: 250px;
+  left: 390px;
+  top: 68px; 
+}
+
+.comboTitle:hover .comboDeleteIcon {
+    visibility: visible;
+}
+
+.comboTitle:hover .comboEditIcon {
+    visibility: visible;
+}
+
+.comboEditIcon, .comboDeleteIcon {
+    visibility: hidden;
+    margin-top: 3px;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .comboEditIcon {
+    right: 30px;
+  }
+  
+  .comboDeleteIcon {
+    right: 10px;
+  }
